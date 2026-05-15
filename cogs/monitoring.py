@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands, tasks
 from discord import app_commands
 import json
-import psutil
 import asyncio
 from datetime import datetime, timedelta
 from typing import Optional
