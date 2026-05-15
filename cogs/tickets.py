@@ -193,7 +193,7 @@ class TicketSystem:
 
 
 class Tickets(commands.Cog):
-    """Advanced Ticket System for TFF Bot."""
+    """Advanced Ticket System for TLC Bot."""
 
     def __init__(self, bot):
         self.bot = bot
