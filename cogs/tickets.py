@@ -222,7 +222,7 @@ class Tickets(commands.Cog):
             color=PRIMARY,
             timestamp=datetime.utcnow()
         )
-        embed.set_footer(text="TFF Bot • Ticket System")
+        embed.set_footer(text="TLC Bot • Ticket System")
         await channel.send(embed=embed, view=TicketView())
 
         await interaction.followup.send(embed=discord.Embed(
