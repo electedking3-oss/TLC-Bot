@@ -20,11 +20,11 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
-        logging.FileHandler(f"logs/tffbot_{datetime.now().strftime('%Y%m%d')}.log"),
+        logging.FileHandler(f"logs/tlcbot_{datetime.now().strftime('%Y%m%d')}.log"),
         logging.StreamHandler(sys.stdout)
     ]
 )
-logger = logging.getLogger("TFFBot")
+logger = logging.getLogger("TLCBot")
 
 # ── Bot Setup ─────────────────────────────────────────────────────────────────
 intents = discord.Intents.all()
